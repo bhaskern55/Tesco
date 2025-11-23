@@ -2,7 +2,7 @@
 # Tesco Loading Page – HTML & CSS (Responsive UI)
 
 A fully responsive Tesco-themed loading/landing page built using **pure HTML and CSS**.  
-This project recreates the professional look and feel of the Tesco online store interface, including structured layout sections, loading animation, category buttons, cards, typography, and responsive behavior for both desktop and mobile devices.
+This project recreates the professional look and feel of the Tesco online store interface, including structured layout sections, category buttons, cards, typography, and responsive behavior for desktop 
 
 ---
 
@@ -27,8 +27,7 @@ This project recreates the professional look and feel of the Tesco online store 
 - Uses flexbox, responsive units, and media queries  
 - Automatically adapts to:
   - Desktop  
-  - Tablet  
-  - Mobile devices  
+  - Tablet   
 
  Custom Font Integration
 - Included support for custom Tesco Modern font  
