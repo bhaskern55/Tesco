@@ -44,10 +44,11 @@
      text-decoration: underline;
  }
 
- @font-face {
-     font-family: tesco;
-     src: url(./TESCOModern-Regular/TESCOModern-Regular.ttf);
- }
+@font-face {
+  font-family: tesco;
+  src: url("TESCOModern-Regular/TESCOModern-Regular.ttf");
+}
+
 
  .span {
      display: block;
@@ -1716,4 +1717,5 @@
      /* border: solid; */
      align-items: center;
      gap: 20px;
+
  }
