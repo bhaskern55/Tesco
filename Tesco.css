@@ -1,0 +1,1719 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ /* body{
+             @font-face {
+            font-family: tesco;
+            src: url(./TESCOModern-Regular/TESCOModern-Regular.ttf);
+        }
+    } */
+
+ .nav1 {
+     height: 28px;
+     /* width: 1512px; */
+     /* border: solid; */
+     /* margin: 0px 4.4px; */
+     background-color: #00539f;
+     font-family: Arial, sans-serif;
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+ }
+
+ .nav1 ul {
+     display: flex;
+     justify-content: end;
+     list-style: none;
+     gap: 20px;
+     margin-right: 5px;
+     align-items: center;
+ }
+
+ .nav1 ul li a {
+     text-decoration: none;
+     font-family: tesco;
+     font-weight: bold;
+     color: white;
+     font-size: 14px;
+ }
+
+ .nav1 ul li a:hover {
+     text-decoration: underline;
+ }
+
+ @font-face {
+     font-family: tesco;
+     src: url(./TESCOModern-Regular/TESCOModern-Regular.ttf);
+ }
+
+ .span {
+     display: block;
+     height: 28px;
+     width: 1px;
+     border-bottom: solid rgba(255, 255, 255, 0.588) 1px;
+     /* transform: rotate(90deg); */
+     align-items: center;
+     text-align: center;
+     border: solid #4d87bc 0.5px;
+     /* background-color: red; */
+
+ }
+
+ .nav2 img {
+     width: 121px;
+     /* border: solid; */
+ }
+
+ .nav2 {
+     /* height: 119px; */
+     display: flex;
+     /* border: solid; */
+     margin: 20px;
+ }
+
+ .nav2-item1 {
+     display: flex;
+     gap: 19px;
+ }
+
+ .nav2-item1 input {
+     width: 682px;
+     padding-left: 10px;
+     border: gray 1px solid;
+ }
+
+ .nav2-item1 input:focus {
+     border: #00539f 1px solid;
+     outline-offset: 2px;
+     outline: 2.5px solid #00539f;
+     caret-color: gray;
+ }
+
+ .nav2-item1 button {
+     height: 43px;
+     width: 43px;
+     border-radius: 50%;
+     background-color: #00539f;
+     border: none;
+ }
+
+ .nav2-item1 button a {
+     color: white;
+     font-size: 1.2rem;
+ }
+
+ .nav2-item1 button:hover {
+     border: white solid;
+     outline: #00539f 2.5px solid;
+     outline-offset: 0.8px;
+ }
+
+ .nav2-item1 input::placeholder {
+     font-style: italic;
+     font-size: 1rem;
+     letter-spacing: 0.3px;
+     font-family: sans-serif;
+     color: #6a6a6a;
+
+ }
+
+ .nav2-item2 .a-1 {
+     /* border: solid; */
+     /* width: 90.8px; */
+     /* height: 42px; */
+     padding: 7px 22px;
+     border-radius: 17px;
+     background-color: #00539f;
+     color: white;
+     font-weight: 600;
+
+ }
+
+ .nav2-item2 .a-2 {
+     border: solid 1.9px #00539f;
+     padding: 6px 24px;
+     border-radius: 18px;
+     color: #00539f;
+     font-weight: bold;
+ }
+
+ .nav2-item2 .a-2:hover {
+     text-decoration: underline #00539f;
+     /* border: 5px solid green; */
+     outline: 3.5px solid #00539f;
+     outline-offset: 2px;
+ }
+
+ .nav2-item2 .a-1:hover {
+     text-decoration: underline white;
+     border: none;
+     outline-offset: 2px;
+     outline: #00539f 3.5px solid;
+ }
+
+ .nav2-item2 {
+     display: flex;
+     /* border: solid; */
+     width: 100%;
+     justify-content: end;
+     align-items: center;
+     gap: 20px;
+ }
+
+ .nav2-item2 .kk {
+     font-family: tesco;
+     text-decoration: none;
+     letter-spacing: 0.5px;
+ }
+
+ .nav3 {
+     margin: 12px 20px;
+     /* border: solid; */
+ }
+
+ .nav3 ul {
+     display: flex;
+     gap: 22px;
+     list-style: none;
+     /* border: solid; */
+     align-items: center;
+ }
+
+ .nav3 ul li a {
+     text-decoration: none;
+     font-family: tesco;
+     color: #00539f;
+     font-weight: 650;
+     text-transform: capitalize;
+
+ }
+
+ .nav3 ul li a:hover {
+     text-decoration: underline;
+     color: #00539f;
+ }
+
+ .nav3 ul li a:focus {
+     transform: rotate(180deg);
+     text-decoration: underline;
+     color: #00539f 5px solid;
+ }
+
+ .bi-chevron-down {
+     margin-left: 8px;
+     font-size: 1.1rem;
+     font-weight: 900;
+     transition: all 4s;
+ }
+
+ /* .bi-chevron-down:focus{
+            transform: rotateY(180deg);
+        } */
+
+ .line {
+     display: block;
+     width: 100%;
+     border-top: 1px lightgray solid;
+     /* border: solid; */
+ }
+
+ .images img {
+     height: 128px;
+     width: 128px;
+     border-radius: 50%;
+     margin-bottom: 10px;
+ }
+
+ .images {
+     display: flex;
+     gap: 20px;
+     /* border:solid; */
+     height: 230px;
+ }
+
+ .circle {
+     text-decoration: none;
+ }
+
+ .circle:hover {
+     text-decoration: underline;
+     color: #00539f;
+ }
+
+ .img-container {
+     /* border: solid; */
+     display: flex;
+     /* align-items: center; */
+     text-align: center;
+     /* flex-wrap: wrap; */
+     padding: 20px;
+     position: relative;
+ }
+ .scroll button{
+    position: absolute;
+    /* height: 160px; */
+    /* width: 160px; */
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    border: solid #00539f;
+   right: 12px;
+   top: 70px;
+   background: transparent;
+   cursor: pointer;
+ }
+ .scroll button:hover{
+    outline: solid #00539f 4px;
+    outline-offset: 2px;
+ }
+ #spp{
+    position: absolute;
+    height: 160px;
+    width: 75px;
+    /* border: solid red; */
+    right: 0px;
+    background: #fffc;
+ }
+ .scroll button .bi55{
+    /* border: solid; */
+    /* height: 100px;
+    width: 100px;
+    /* border-radius: 50%; */ 
+    color: #00539f;
+ }
+
+ .images .spn {
+     /* margin-top: 20px; */
+     /* border: solid; */
+     font-family: tesco;
+     color: #00539f;
+     font-weight: 650;
+
+ }
+
+ .card {
+     height: 480px;
+     width: 480px;
+     border: solid 1px grey;
+     cursor: pointer;
+ }
+
+ .card:hover .kk {
+     text-decoration: underline;
+ }
+
+ .card h3 {
+     font-size: 1.5rem;
+ }
+
+ .card p {
+     color: grey;
+     font-size: 0.99rem;
+ }
+
+ .card img {
+     width: 100%;
+     height: 269px;
+ }
+
+ .card-container {
+     display: flex;
+     /* height: 100vh; */
+     margin: 18px;
+     gap: 25px;
+     margin-bottom: 60px;
+ }
+
+ .cardd {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     /* border: solid; */
+     margin: 15px;
+     font-family: tesco;
+ }
+
+ .crd-spn {
+     border: solid 1.9px #00539f;
+     padding: 6px 24px;
+     width: 148px;
+     border-radius: 18px;
+     color: #00539f;
+     font-weight: bold;
+     margin-top: 50px;
+ }
+
+ .crd-spn:hover {
+     text-decoration: underline;
+     color: #00539f;
+     outline: 3.5px solid #00539f;
+     outline-offset: 2px;
+ }
+
+ .bi-chevron-right {
+     margin-left: 6px;
+     /* border: solid; */
+     font-size: 1.2rem;
+     text-align: center;
+ }
+
+ .crd-spn2 {
+     border: solid 1.9px #00539f;
+     padding: 6px 24px;
+     width: 158px;
+     border-radius: 18px;
+     color: #00539f;
+     font-weight: bold;
+     margin-top: 30px;
+ }
+
+ .crd-spn2:hover {
+     text-decoration: underline;
+     color: #00539f;
+     outline: 3.5px solid #00539f;
+     outline-offset: 2px;
+ }
+
+ .crd-spn3 {
+     border: solid 1.9px #00539f;
+     padding: 6px 24px;
+     width: 176px;
+     border-radius: 18px;
+     color: #00539f;
+     font-weight: bold;
+     margin-top: 55px;
+ }
+
+ .crd-spn3:hover {
+     text-decoration: underline;
+     color: #00539f;
+     outline: 3.5px solid #00539f;
+     outline-offset: 2px;
+ }
+
+ .royal-img {
+     margin: 15px;
+ }
+
+ .royal-img img {
+     width: 100%;
+ }
+
+ .royal-card-container {
+     /* border: solid; */
+     margin: 15px;
+     /* display: flex; */
+ }
+
+ .royal-img-container {
+     display: flex;
+     /* border: solid red; */
+     justify-content: space-between;
+     width: 100%;
+ }
+
+ .royal-card1 {
+     width: 354px;
+     height: 372px;
+     border: 1px solid grey;
+     cursor: pointer;
+ }
+
+ #royal a {
+     text-decoration: none;
+     font-family: tesco;
+     color: #00539f;
+     font-weight: 700;
+ }
+
+ .royal-card1 img {
+     width: 100%;
+ }
+
+ .royal-card1:hover #royal a {
+     text-decoration: underline;
+     color: #00539f;
+     font-family: tesco;
+ }
+
+ .royal-card1:hover .ryl-crd1 h3,
+ .royal-card1:hover .ryl-crd1 p {
+     text-decoration: none;
+ }
+
+ .ryl-crd1 {
+     margin: 10px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     font-family: tesco;
+ }
+
+ #royal {
+     margin: 10px;
+     display: flex;
+     margin-top: 20px;
+     justify-content: space-between;
+     /* gap:30 px; */
+ }
+
+ #royal .ok {
+     margin-top: 10px;
+ }
+
+ .ryl-crd h3 {
+     font-size: 1.3rem;
+     color: black;
+     /* border: solid; */
+ }
+
+ .ryl-crd p {
+     color: gray;
+ }
+
+ #royal .bi-chevron-right {
+     color: #00539f;
+ }
+
+ .para {
+     margin: 25px 15px;
+     font-family: tesco;
+     /* border: solid; */
+     display: flex;
+     gap: 947px;
+
+ }
+
+ .last p {
+     color: grey;
+     /* border: solid; */
+ }
+
+ .last {
+     display: flex;
+     justify-content: flex-end;
+     /* border: solid; */
+     /* width: 100%; */
+     gap: 20px;
+     align-items: center;
+     text-align: end;
+
+ }
+
+ .vall {
+     border: solid;
+     padding: 3px 19px;
+     text-decoration: none;
+     border-radius: 20px;
+     color: #00539f;
+     font-family: tesco;
+     font-weight: 900;
+ }
+
+ .vall:hover {
+     text-decoration: underline;
+     color: #00539f;
+     outline: #00539f 3.5px solid;
+     outline-offset: 2px;
+
+ }
+
+ .m-card-container {
+     margin: 15px;
+     /* border: solid; */
+     display: flex;
+     /* justify-content: space-between; */
+     gap: 10px;
+     position: relative;
+ }
+
+ /*  Scroll bar 2 code  */
+ .scroll2 button{
+    position: absolute;
+    /* height: 160px; */
+    /* width: 160px; */
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    border: solid #00539f;
+   right: 12px;
+   top: 50%;
+   cursor: pointer;
+   background: transparent;
+ }
+ .scroll2 button:hover{
+    outline: solid #00539f 4px;
+    outline-offset: 2px;
+ }
+ #spp2{
+    position: absolute;
+    height: 100%;
+    width: 100px;
+    /* border: solid red; */
+    right: -15px;
+    background: rgba(255, 255, 255, 0.644);
+ }
+ .scroll2 button .bi56{
+    color: #00539f;
+ }
+
+ .m-card img {
+     width: 135px;
+     display: block;
+     margin: auto;
+     margin-top: 50px;
+     /* border: solid; */
+     cursor: pointer;
+
+ }
+
+ .m-card {
+     border: solid grey 1px;
+     width: 254px;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     gap: 100px;
+ }
+
+ .v-cleaner {
+     display: flex;
+     gap: 120px;
+
+ }
+
+ .iron {
+     display: flex;
+     gap: 120px;
+ }
+
+ .msp1 {
+     position: absolute;
+     /* width: 100px; */
+     top: 10px;
+     left: 15px;
+     border: solid #00539f 1.6px;
+     color: #00539f;
+     padding: 2px 10px;
+     font-family: tesco;
+ }
+
+ .msp2 {
+     position: absolute;
+     left: 116px;
+     top: 13px;
+     font-size: 1rem;
+     color: red;
+ }
+
+ .m-card h3 {
+     margin-top: 30px;
+     font-family: tesco;
+     margin-left: 10px;
+     font-size: 1rem;
+     color: #00539f;
+     cursor: pointer;
+ }
+
+ .m-card h3:hover {
+     text-decoration: underline;
+     color: #00539f;
+ }
+
+ .mp1 {
+     margin-left: 10px;
+     font-family: tesco;
+     margin-top: 8px;
+     color: grey;
+ }
+
+ .mpp {
+     margin-left: 10px;
+     font-family: tesco;
+ }
+
+ .mp-letter {
+     cursor: pointer;
+ }
+
+ .mp-letter:hover {
+     text-decoration: underline;
+     color: #00539f;
+ }
+
+ .mp2 {
+     background-color: #fcd700;
+     width: 220px;
+     margin-left: 10px;
+     /* padding: 5px 6px; */
+     padding-left: 10px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     /* text-align: center; */
+ }
+
+ .mp3 {
+     color: grey;
+     margin-top: 8px;
+     font-size: 0.8rem
+ }
+
+ .mp3-same {
+     display: flex;
+     margin-top: 5px;
+ }
+
+ .mp4 {
+     font-weight: bold;
+ }
+
+ .mp5 {
+     font-size: 0.8rem;
+     color: grey;
+     margin-top: 8px;
+     margin-left: 10px
+         /* border: solid; */
+ }
+
+ .mp-input {
+     margin: 10px;
+     /* border: solid; */
+     display: flex;
+     /* justify-content: space-between; */
+     gap: 20px;
+
+ }
+
+ .mp-input input {
+     /* padding: 7px 4px; */
+     width: 100px;
+     padding-left: 3px;
+     height: 30px;
+     /* border: solid 1px grey; */
+ }
+
+ .mp-input input:focus {
+     border: solid #00539f 1px;
+     outline: 2.5px solid #00539f;
+     outline-offset: 2px;
+ }
+
+ .mp-button {
+     width: 100px;
+     height: 33px;
+     border-radius: 17px;
+     /* padding: 6px 0px; */
+     background-color: #00539f;
+     color: white;
+     border: none;
+     font-weight: bold;
+ }
+
+ .mp-button:hover {
+     text-decoration: underline;
+     outline: #00539f 3px solid;
+     outline-offset: 2px;
+
+ }
+
+ .s-card {
+     height: 480px;
+     width: 480px;
+     border: solid 1px grey;
+     cursor: pointer;
+ }
+
+ .s-card:hover .s-kk {
+     text-decoration: underline;
+ }
+
+ .s-card h3 {
+     font-size: 1.5rem;
+ }
+
+ .s-card p {
+     color: grey;
+     font-size: 0.99rem;
+ }
+
+ .s-card img {
+     width: 100%;
+     height: 269px;
+ }
+
+ .seller-card-container {
+     display: flex;
+     /* height: 100vh; */
+     margin: 18px;
+     gap: 25px;
+     margin-bottom: 60px;
+ }
+
+ .s-cardd {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     /* border: solid; */
+     margin: 15px;
+     font-family: tesco;
+ }
+
+ .s-crd-spn {
+     border: solid 1.9px #00539f;
+     padding: 6px 24px;
+     width: 170px;
+     border-radius: 18px;
+     color: #00539f;
+     font-weight: bold;
+     margin-top: 30px;
+ }
+
+ .s-crd-spn:hover {
+     text-decoration: underline;
+     color: #00539f;
+     outline: 3.5px solid #00539f;
+     outline-offset: 2px;
+ }
+
+ .s-bi-chevron-right {
+     margin-left: 6px;
+     /* border: solid; */
+     font-size: 1.2rem;
+     text-align: center;
+ }
+
+ .s-kk2 {
+     margin-top: 50px;
+ }
+
+ .s-kk3 {
+     margin-top: 50px;
+ }
+
+ .para2 {
+     margin: 25px 15px;
+     font-family: tesco;
+     /* border: solid; */
+     display: flex;
+     /* gap: 947px; */
+
+ }
+
+ .lastT p {
+     color: grey;
+     /* border: solid; */
+ }
+
+ .lastT2 {
+     display: flex;
+     justify-content: flex-end;
+     /* border: solid; */
+     width: 100%;
+     gap: 20px;
+     align-items: center;
+     text-align: end;
+
+ }
+
+ .vall2 {
+     border: solid;
+     padding: 3px 19px;
+     text-decoration: none;
+     border-radius: 20px;
+     color: #00539f;
+     font-family: tesco;
+     font-weight: 900;
+ }
+
+ .vall2:hover {
+     text-decoration: underline;
+     color: #00539f;
+     outline: #00539f 3.5px solid;
+     outline-offset: 2px;
+
+ }
+
+ .Trending {
+     display: flex;
+     gap: 30px;
+     /* border: solid; */
+     width: 1100px;
+     align-items: center;
+ }
+
+ .trnd-btn {
+     padding: 6px 18px;
+     border-radius: 12px;
+     background-color: #007eb3;
+     color: white;
+     font-weight: 900;
+     font-family: tesco;
+     border: none;
+     letter-spacing: 1px;
+ }
+
+ .trnd-btn:hover {
+     text-decoration: underline;
+     outline-offset: 2px;
+     outline: 3.5px solid #007eb3;
+ }
+
+ .Trending a {
+     text-decoration: none;
+     color: #00539f;
+     font-family: tesco;
+     font-weight: 900;
+ }
+
+ .Trending a:hover {
+     text-decoration: underline;
+ }
+
+ .trnd-m-card-container {
+     margin: 15px;
+     /* border: solid; */
+     display: flex;
+     /* justify-content: space-between; */
+     gap: 10px;
+     position: relative;
+ }
+
+  /*  Scroll bar 3 code  */
+
+ .scroll3 button{
+    position: absolute;
+    /* height: 160px; */
+    /* width: 160px; */
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    border: solid #00539f;
+   right: 12px;
+   top: 50%;
+   cursor: pointer;
+   background: transparent;
+ }
+ .scroll3 button:hover{
+    outline: solid #00539f 4px;
+    outline-offset: 2px;
+ }
+ #spp3{
+    position: absolute;
+    height: 100%;
+    width: 100px;
+    /* border: solid red; */
+    right: -15px;
+    background: rgba(255, 255, 255, 0.644);
+ }
+ .scroll3 button .bi57{
+    color: #00539f;
+
+ }
+
+ .trnd-m-card img {
+     width: 135px;
+     display: block;
+     margin: auto;
+     margin-top: 50px;
+     /* border: solid; */
+     cursor: pointer;
+
+ }
+
+ .trnd-m-card {
+     border: solid grey 1px;
+     width: 254px;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     gap: 100px;
+ }
+
+ .trnd-v-cleaner {
+     display: flex;
+     gap: 120px;
+
+ }
+
+ .trnd-iron {
+     display: flex;
+     gap: 120px;
+ }
+
+ .trnd-msp1 {
+     position: absolute;
+     /* width: 100px; */
+     top: 10px;
+     left: 15px;
+     border: solid #00539f 1.6px;
+     color: #00539f;
+     padding: 2px 10px;
+     font-family: tesco;
+ }
+
+ .trnd-msp2 {
+     position: absolute;
+     left: 116px;
+     top: 13px;
+     font-size: 1rem;
+     color: red;
+ }
+
+ .trnd-m-card h3 {
+     margin-top: 30px;
+     font-family: tesco;
+     margin-left: 10px;
+     font-size: 1rem;
+     color: #00539f;
+     cursor: pointer;
+ }
+
+ .trnd-m-card h3:hover {
+     text-decoration: underline;
+     color: #00539f;
+ }
+
+ .trnd-mp1 {
+     margin-left: 10px;
+     font-family: tesco;
+     margin-top: 8px;
+     color: grey;
+ }
+
+ .trnd-mpp {
+     margin-left: 10px;
+     font-family: tesco;
+ }
+
+ .trnd-mp-letter {
+     cursor: pointer;
+ }
+
+ .trnd-mp-letter:hover {
+     text-decoration: underline;
+     color: #00539f;
+ }
+
+ .trnd-mp2 {
+     background-color: #fcd700;
+     width: 220px;
+     margin-left: 10px;
+     /* padding: 5px 6px; */
+     padding-left: 10px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     /* text-align: center; */
+ }
+
+ .trnd-mp3 {
+     color: grey;
+     margin-top: 8px;
+     font-size: 0.8rem
+ }
+
+ .trnd-mp3-same {
+     display: flex;
+     margin-top: 5px;
+ }
+
+ .trnd-mp4 {
+     font-weight: bold;
+ }
+
+ .trnd-mp5 {
+     font-size: 0.8rem;
+     color: grey;
+     margin-top: 8px;
+     margin-left: 10px
+         /* border: solid; */
+ }
+
+ .trnd-mp-input {
+     margin: 10px;
+     /* border: solid; */
+     display: flex;
+     /* justify-content: space-between; */
+     gap: 20px;
+
+ }
+
+ .trnd-mp-input input {
+     /* padding: 7px 4px; */
+     width: 100px;
+     padding-left: 3px;
+     height: 30px;
+     /* border: solid 1px grey; */
+ }
+
+ .trnd-mp-input input:focus {
+     border: solid #00539f 1px;
+     outline: 2.5px solid #00539f;
+     outline-offset: 2px;
+ }
+
+ .trnd-mp-button {
+     width: 100px;
+     height: 33px;
+     border-radius: 17px;
+     /* padding: 6px 0px; */
+     background-color: #00539f;
+     color: white;
+     border: none;
+     font-weight: bold;
+ }
+
+ .trnd-mp-button:hover {
+     text-decoration: underline;
+     outline: #00539f 3px solid;
+     outline-offset: 2px;
+
+ }
+
+ .h2 {
+     /* border: solid; */
+     margin-top: 50px;
+ }
+
+ .way-card {
+     height: 480px;
+     width: 480px;
+     border: solid 1px grey;
+     cursor: pointer;
+ }
+
+ .way-card:hover .kk {
+     text-decoration: underline;
+ }
+
+ .way-card h3 {
+     font-size: 1.5rem;
+ }
+
+ .way-card p {
+     color: grey;
+     font-size: 0.99rem;
+ }
+
+ .way-card img {
+     width: 100%;
+     height: 269px;
+ }
+
+ .way-card-container {
+     display: flex;
+     /* height: 100vh; */
+     margin: 18px;
+     gap: 25px;
+     margin-bottom: 60px;
+ }
+
+ .way-cardd {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     /* border: solid; */
+     margin: 15px;
+     font-family: tesco;
+     position: relative;
+ }
+
+ .way-crd-spn {
+     /* border: solid 1.9px #00539f; */
+     padding: 6px 24px;
+     width: 150px;
+     /* border-radius: 18px; */
+     color: #00539f;
+     font-weight: bold;
+     margin-top: 65px;
+     margin-right: 20px;
+     /* border: solid; */
+ }
+
+ .way-crd-spn:hover {
+     text-decoration: underline;
+     color: #00539f;
+     /* outline: 3.5px solid #00539f; */
+     /* outline-offset: 2px; */
+ }
+
+ .bi2 {
+     margin-left: 400px;
+     color: #00539f;
+     position: absolute;
+     /* border: solid; */
+     font-size: 1.2rem;
+     text-align: center;
+     bottom: 1px;
+     right: 1px;
+ }
+
+ .way-card2:hover .way-kk {
+     text-decoration: underline;
+ }
+
+ .way-crd-spn2 {
+     padding: 6px 24px;
+     width: 180px;
+     border-radius: 18px;
+     color: #00539f;
+     font-weight: bold;
+     margin-top: 43px;
+     margin-right: 20px;
+ }
+
+ .way-crd-spn2:hover {
+     text-decoration: underline;
+     color: #00539f;
+ }
+
+ .bi3 {
+     margin-left: 400px;
+     color: #00539f;
+     position: absolute;
+     /* border: solid; */
+     font-size: 1.2rem;
+     text-align: center;
+     bottom: 1px;
+     right: 1px;
+ }
+
+ .way-card3:hover .way-kk {
+     text-decoration: underline;
+ }
+
+ .way-crd-spn3 {
+     padding: 6px 24px;
+     width: 180px;
+     border-radius: 18px;
+     color: #00539f;
+     font-weight: bold;
+     margin-top: 43px;
+     margin-right: 20px;
+ }
+
+ .way-crd-spn3:hover {
+     text-decoration: underline;
+     color: #00539f;
+
+ }
+
+ .bi4 {
+     margin-left: 400px;
+     color: #00539f;
+     position: absolute;
+     /* border: solid; */
+     font-size: 1.2rem;
+     text-align: center;
+     bottom: 1px;
+     right: 1px;
+ }
+
+ .hh {
+     /* border: solid; */
+     margin-top: 1px;
+ }
+
+ .disc-card {
+     height: 480px;
+     width: 480px;
+     border: solid 1px grey;
+     cursor: pointer;
+ }
+
+ .disc-card:hover .kk {
+     text-decoration: underline;
+ }
+
+ .disc-card h3 {
+     font-size: 1.5rem;
+ }
+
+ .disc-card p {
+     color: grey;
+     font-size: 0.99rem;
+ }
+
+ .disc-card img {
+     width: 100%;
+     height: 269px;
+ }
+
+ .disc-card-container {
+     display: flex;
+     /* height: 100vh; */
+     margin: 18px;
+     gap: 25px;
+     margin-bottom: 60px;
+ }
+
+ .disc-cardd {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     /* border: solid; */
+     margin: 15px;
+     font-family: tesco;
+     position: relative;
+ }
+
+ .disc-crd-spn {
+     /* border: solid 1.9px #00539f; */
+     /* padding: 6px 24px; */
+     width: 170px;
+     /* border-radius: 18px; */
+     color: #00539f;
+     font-weight: bold;
+     margin-top: 65px;
+     margin-right: 20px;
+     /* border: solid; */
+ }
+
+ .disc-crd-spn:hover {
+     text-decoration: underline;
+     color: #00539f;
+     /* outline: 3.5px solid #00539f; */
+     /* outline-offset: 2px; */
+ }
+
+ .bi5 {
+     margin-left: 400px;
+     color: #00539f;
+     position: absolute;
+     /* border: solid; */
+     font-size: 1.2rem;
+     text-align: center;
+     bottom: 1px;
+     right: 1px;
+ }
+
+ .disc-card2:hover .disc-kk {
+     text-decoration: underline;
+ }
+
+ .disc-crd-spn2 {
+     /* padding: 6px 24px; */
+     width: 180px;
+     border-radius: 18px;
+     color: #00539f;
+     font-weight: bold;
+     margin-top: 43px;
+     margin-right: 20px;
+ }
+
+ .disc-crd-spn2:hover {
+     text-decoration: underline;
+     color: #00539f;
+ }
+
+ .bi6 {
+     margin-left: 400px;
+     color: #00539f;
+     position: absolute;
+     /* border: solid; */
+     font-size: 1.2rem;
+     text-align: center;
+     bottom: 1px;
+     right: 1px;
+ }
+
+ .disc-card3:hover .disc-kk {
+     text-decoration: underline;
+ }
+
+ .disc-crd-spn3 {
+     /* padding: 6px 24px; */
+     width: 180px;
+     border-radius: 18px;
+     color: #00539f;
+     font-weight: bold;
+     margin-top: 43px;
+     margin-right: 20px;
+ }
+
+ .disc-crd-spn3:hover {
+     text-decoration: underline;
+     color: #00539f;
+
+ }
+
+ .b7 {
+     margin-left: 400px;
+     color: #00539f;
+     position: absolute;
+     /* border: solid; */
+     font-size: 1.2rem;
+     text-align: center;
+     bottom: 1px;
+     right: 1px;
+ }
+
+ /* rtyu */
+ .whh {
+     /* border: solid; */
+     margin-top: 1px;
+ }
+
+ .we-card {
+     height: 480px;
+     width: 480px;
+     border: solid 1px grey;
+     cursor: pointer;
+ }
+
+ .we-card:hover .kk {
+     text-decoration: underline;
+ }
+
+ .we-card h3 {
+     font-size: 1.5rem;
+ }
+
+ .we-card p {
+     color: grey;
+     font-size: 0.99rem;
+ }
+
+ .we-card img {
+     width: 100%;
+     height: 269px;
+ }
+
+ .we-card-container {
+     display: flex;
+     /* height: 100vh; */
+     margin: 18px;
+     gap: 25px;
+     margin-bottom: 60px;
+ }
+
+ .we-cardd {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     /* border: solid; */
+     margin: 15px;
+     font-family: tesco;
+     position: relative;
+ }
+
+ .we-crd-spn {
+     /* border: solid 1.9px #00539f; */
+     /* padding: 6px 24px; */
+     width: 170px;
+     /* border-radius: 18px; */
+     color: #00539f;
+     font-weight: bold;
+     margin-top: 50px;
+     margin-right: 20px;
+     /* border: solid; */
+ }
+
+ .we-crd-spn:hover {
+     text-decoration: underline;
+     color: #00539f;
+     /* outline: 3.5px solid #00539f; */
+     /* outline-offset: 2px; */
+ }
+
+ .bi8 {
+     margin-left: 400px;
+     color: #00539f;
+     position: absolute;
+     /* border: solid; */
+     font-size: 1.2rem;
+     text-align: center;
+     bottom: 0px;
+     right: 1px;
+ }
+
+ .we-card2:hover .we-kk {
+     text-decoration: underline;
+ }
+
+ .we-crd-spn2 {
+     /* padding: 6px 24px; */
+     width: 180px;
+     border-radius: 18px;
+     color: #00539f;
+     font-weight: bold;
+     margin-top: 43px;
+     margin-right: 20px;
+ }
+
+ .we-crd-spn2:hover {
+     text-decoration: underline;
+     color: #00539f;
+ }
+
+ .bi9 {
+     color: #00539f;
+     position: absolute;
+     /* border: solid; */
+     font-size: 1.2rem;
+     text-align: center;
+     bottom: 1px;
+     right: 1px;
+ }
+
+ .we-card3:hover .we-kk {
+     text-decoration: underline;
+ }
+
+ .we-crd-spn3 {
+     /* padding: 6px 24px; */
+     width: 180px;
+     color: #00539f;
+     font-weight: bold;
+     margin-top: 50px;
+     margin-right: 200px;
+     /* border: solid; */
+
+ }
+
+ .we-crd-spn3:hover {
+     text-decoration: underline;
+     color: #00539f;
+
+ }
+
+ .b10 {
+     margin-left: 400px;
+     color: #00539f;
+     position: absolute;
+     /* border: solid; */
+     font-size: 1.2rem;
+     text-align: center;
+     bottom: -1px;
+     right: 1px;
+ }
+
+ .even-royal-img {
+     margin: 15px;
+ }
+
+ .even-royal-img img {
+     width: 100%;
+ }
+
+ .even-royal-card-container {
+     /* border: solid; */
+     margin: 15px;
+     /* display: flex; */
+ }
+
+ .even-royal-img-container {
+     display: flex;
+     /* border: solid red; */
+     justify-content: space-between;
+     width: 100%;
+ }
+
+ .even-royal-card1 {
+     width: 354px;
+     height: 372px;
+     border: 1px solid grey;
+     cursor: pointer;
+ }
+
+ #even-royal a {
+     text-decoration: none;
+     font-family: tesco;
+     color: #00539f;
+     font-weight: 700;
+ }
+
+ .even-royal-card1 img {
+     width: 100%;
+ }
+
+ .even-royal-card1:hover #even-royal a {
+     text-decoration: underline;
+     color: #00539f;
+     font-family: tesco;
+ }
+
+ .even-royal-card1:hover .ryl-crd1 h3,
+ .even-royal-card1:hover .ryl-crd1 p {
+     text-decoration: none;
+ }
+
+ .even-ryl-crd1 {
+     margin: 10px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     font-family: tesco;
+ }
+
+ #even-royal {
+     margin: 10px;
+     display: flex;
+     margin-top: 20px;
+     justify-content: space-between;
+     /* gap:30 px; */
+ }
+
+ #even-royal .even-ok {
+     margin-top: 14px;
+ }
+
+ .even-ryl-crd h3 {
+     font-size: 1.3rem;
+     color: black;
+     /* border: solid; */
+ }
+
+ .even-ryl-crd p {
+     color: gray;
+ }
+
+ #even-royal .bi11 {
+     /* border: solid; */
+     margin-top: 17px;
+     color: #00539f;
+ }
+
+ #even-royal .bi12 {
+     /* border: solid; */
+     margin-top: 1px;
+     color: #00539f;
+ }
+
+ .evn-ryl2 {
+     /* border: solid; */
+     margin-right: 10px;
+ }
+
+ #even-royal .bi13 {
+     /* border: solid; */
+     margin-top: 1px;
+     color: #00539f;
+ }
+
+ #even-royal .b14 {
+     /* border: solid; */
+     margin-top: 1px;
+     color: #00539f;
+ }
+
+ .evn-ryl4 {
+     /* border: solid; */
+     margin-top: 10px;
+ }
+
+ .paragraph {
+     /* border: solid; */
+     margin: 40px 18px;
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+
+ }
+
+ .paragraph p {
+     color: #666666;
+     font-family: tesco;
+     font-size: 14px;
+ }
+
+ .footer {
+     /* border: solid red; */
+     height: 515px;
+     width: 100%;
+     background-color: #f6f6f6;
+ }
+
+ .f-item-container {
+     display: flex;
+     /* border: solid; */
+     margin: 18px;
+     justify-content: space-between;
+     margin-right: 290px;
+ }
+
+ .f-item-container ul {
+     list-style: none;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ .f-item-container ul li a {
+     font-size: 1rem;
+     font-family: tesco;
+     color: #00539f;
+ }
+
+ .f-item-container ul li a:hover {
+     text-decoration: none;
+ }
+
+ .footer-col h4 {
+     /* border: solid; */
+     margin-bottom: 20px;
+     margin-top: 20px;
+     font-family: tesco;
+     font-size: 1rem;
+     color: #333333;
+ }
+
+ .f-svg {
+     margin: 18px;
+     display: flex;
+     gap: 15px;
+     margin-top: -2px;
+     /* border: solid; */
+ }
+
+ .f-svg a svg {
+     /* border: solid; */
+     border-radius: 50%;
+ }
+
+ .f-svg a .f-svg1:hover {
+     outline: 2.5px solid #1877f2;
+     outline-offset: 2px;
+ }
+
+ .f-svg a .f-svg2:hover {
+     outline: 2.5px solid black;
+     outline-offset: 2px;
+ }
+
+ .f-svg a .f-svg3:hover {
+     outline: 2.5px solid #e60023;
+     outline-offset: 2px;
+ }
+
+ .f-svg a .f-svg4:hover {
+     outline: 2.5px solid red;
+     outline-offset: 2px;
+ }
+
+ .f-svg a .f-svg5:hover {
+     outline: 2.5px solid #e1306c;
+     outline-offset: 2px;
+ }
+
+ .footer-last-p {
+     margin: 18px;
+     font-family: tesco;
+     color: grey;
+ }
+
+ .footer-last span {
+     display: block;
+     width: 100%;
+     border-bottom: solid 1px grey;
+ }
+
+ .visa {
+     margin: 18px;
+     display: flex;
+     /* border: solid; */
+     align-items: center;
+     gap: 20px;
+ }
