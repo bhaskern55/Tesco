@@ -1,6 +1,8 @@
 # Tesco
 # Tesco Loading Page – HTML & CSS (Responsive UI)
 
+Demo Live Link 🔗 : https://bhaskern55.github.io/Tesco-Online-Groceries/
+
 A fully responsive Tesco-themed loading/landing page built using **pure HTML and CSS**.  
 This project recreates the professional look and feel of the Tesco online store interface, including structured layout sections, category buttons, cards, typography, and responsive behavior for desktop 
 
